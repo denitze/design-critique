@@ -1,0 +1,249 @@
+@font-face {
+    font-family: Graphik-Regular;
+    src: url(../fonts/Graphik-Regular.woff);
+  }
+
+  @font-face {
+    font-family: Graphik-Medium;
+    src: url(../fonts/Graphik-Medium.ttf);
+  }
+
+  @font-face {
+    font-family:TiemposHeadline-Semibold;
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+  }
+
+  @font-face {
+    font-family: Theinhardt-Lt;
+    src: url(../fonts/Theinhardt-Lt.woff);
+  }
+
+  body {
+    color:#27282A;
+  }
+
+  * {
+      margin:0;
+  }
+
+  /* header  */
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2vh 8% 8vh;
+    color:#2B2C2E;
+
+}
+
+nav ul {
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    list-style: none;
+    padding:0;
+}
+
+nav li {
+    padding-right:10%;
+    font-family: Graphik-Regular;
+}
+
+a {
+    text-decoration: none;
+    color:#2B2C2E;
+}
+
+h4 {
+    font-size: 1.8rem;
+    margin-left:-1rem;
+    font-family:TiemposHeadline-Semibold;
+    
+}
+
+.button {
+    font-family: Graphik-Medium;
+    border:1px solid #333;
+    padding:1vh 3%;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color:#fff;
+    background:#2B2C2E;
+}
+
+/* hero-section */
+
+.hero {
+    text-align: center;
+    font-family: Graphik-Regular;
+    margin-bottom:10vh;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom:5vh;
+
+}
+
+.hero img {
+    width:100%;
+}
+
+.review p:first-child {
+    font-family: Graphik-Medium;
+    width:55%;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+
+}
+
+.review div {
+    font-family: Theinhardt-Lt; 
+    width:10%;
+}
+
+.review h3 {
+    font-size: 4rem;
+}
+
+.review div p {
+    font-size:1.2rem ;
+    color:#9FA2A7;
+}
+
+.review {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:10vh;
+}
+
+.deliverables {
+    display:flex;
+    justify-content: center;
+    padding:0 8%;
+    margin-bottom:10vh;
+}
+
+.deliverables img {
+    width:90%;
+}
+
+.deliverables figure {
+    width:50%;
+}
+
+h2 {
+    font-size: 4rem;
+    font-family:TiemposHeadline-Semibold;
+    margin-bottom: 4vh;
+}
+
+.deliver-text {
+width:40%;
+
+}
+
+.deliver-text h5 {
+    font-family: Graphik-Medium;
+    font-size: 1.5rem;
+    padding:3vh 0;
+    }
+    
+.grey {
+    font-family: Theinhardt-Lt; 
+    font-size: 1.5rem;
+    color:#848689;
+ }
+
+ .bg-grey {
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+     background: #F1F1F4;
+     border: 1px solid #F1F1F4;
+     border-radius: 5px;
+     margin:5vh 10% 10vh;
+     padding:3vh 5%;
+ }
+
+ .bg-grey div {
+     width:50%;
+ }
+
+ .bg-grey figure {
+width:60%;
+ }
+
+ .bg-grey img {
+     width:100%;
+ }
+
+.critique {
+    text-align: center;
+}
+
+.critique article:first-child {
+    margin-bottom:10vh;
+}
+
+.conversion {
+    min-height: 77vh;
+    background: url(../img/28.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    display:flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    text-align: left;
+}
+
+.conversion figure {
+    width:40%;
+    align-self: center;
+    
+}
+
+.conversion img {
+    width:100%;
+    margin-top:7vh;
+}
+
+
+
+.conversion p {
+    font-family: Graphik-Medium;
+    font-size: 1.5rem;
+    color:#848689;
+    width:28%;
+    align-self: center;
+    line-height: 2.8rem;
+    margin-top:3vh;
+ }
+ footer {
+     border-top:1px solid #3D3E41;
+     margin:0 8% 5vh;
+     text-align: center;
+     padding-top:5vh;
+
+ }
+
+ footer p {
+    
+    font-size: .8rem;
+    display:inline-block;
+ }
+
+ footer img {
+     display: inline-block;
+ }
+
+ 
+
+
+/* Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff */
